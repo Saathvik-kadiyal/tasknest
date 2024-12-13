@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  text-align: center;
+  font-family: avenir;
+}
+body{
+  background: linear-gradient(to right, #1a202c, #2d3748, #2b6cb0);
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media (orientation: landscape) {
+  .landscape-class {
+    display: block !important;
+  }
+}
+
+@media (orientation: portrait) {
+  .portrait-class {
+    display: block !important;
+  }
+}
